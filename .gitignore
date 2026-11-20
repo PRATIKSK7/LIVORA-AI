@@ -1,0 +1,66 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data safety & privacy (Never commit raw, processed, or survey data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/survey/*
+!data/survey/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.tar.gz
+*.csv
+*.tsv
+*.parquet
+
+# Node & Frontend build
+web/node_modules/
+web/dist/
+web/.vite/
+node_modules/
+dist/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build & evaluation artifacts
+reports/*
+!reports/.gitkeep
+notebooks/.ipynb_checkpoints/
